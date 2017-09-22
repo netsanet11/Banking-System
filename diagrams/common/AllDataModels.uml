@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab8.finalProject.framework.dataLayer.models.basicData.Customer</OriginalElement>
+  <nodes>
+    <node x="1188.0" y="757.5">lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.SilverAccount</node>
+    <node x="417.0" y="757.5">lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.CheckingAccount</node>
+    <node x="30.461538461538453" y="267.0">lab8.finalProject.framework.dataLayer.models.basicData.Address</node>
+    <node x="1465.0" y="757.5">lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.BronzeAccount</node>
+    <node x="482.375" y="212.0">lab8.finalProject.framework.dataLayer.models.accounts.Account</node>
+    <node x="914.0" y="757.5">lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.GoldAccount</node>
+    <node x="534.0721153846154" y="534.0">lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.DebitAccountBase</node>
+    <node x="504.375" y="0.0">lab8.finalProject.framework.dataLayer.models.accounts.TransactionHistory</node>
+    <node x="220.0" y="757.0">lab8.finalProject.framework.dataLayer.models.basicData.IndividualCustomer</node>
+    <node x="69.25" y="490.0">lab8.finalProject.framework.dataLayer.models.basicData.Customer</node>
+    <node x="0.0" y="746.0">lab8.finalProject.framework.dataLayer.models.basicData.CorporateCustomer</node>
+    <node x="673.0" y="757.5">lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.SavingAccount</node>
+    <node x="1164.081730769231" y="512.0">lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.CreditAccountBase</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab8.finalProject.framework.dataLayer.models.basicData.Customer" target="lab8.finalProject.framework.dataLayer.models.basicData.Address">
+      <point x="-90.0" y="-103.0" />
+      <point x="114.25" y="470.0" />
+      <point x="118.46153846153845" y="470.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.SavingAccount" target="lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.DebitAccountBase">
+      <point x="0.0" y="-36.5" />
+      <point x="783.5" y="721.0" />
+      <point x="695.3221153846154" y="721.0" />
+      <point x="53.75" y="59.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.SilverAccount" target="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.CreditAccountBase">
+      <point x="0.0" y="-36.5" />
+      <point x="1316.5" y="721.0" />
+      <point x="1291.581730769231" y="721.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="lab8.finalProject.framework.dataLayer.models.basicData.IndividualCustomer" target="lab8.finalProject.framework.dataLayer.models.basicData.Customer">
+      <point x="0.0" y="-37.0" />
+      <point x="308.5" y="721.0" />
+      <point x="271.75" y="721.0" />
+      <point x="67.5" y="103.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.GoldAccount" target="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.CreditAccountBase">
+      <point x="0.0" y="-36.5" />
+      <point x="1041.0" y="721.0" />
+      <point x="1206.581730769231" y="721.0" />
+      <point x="-85.0" y="81.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.CreditAccountBase" target="lab8.finalProject.framework.dataLayer.models.accounts.Account">
+      <point x="0.0" y="-81.0" />
+      <point x="1291.581730769231" y="470.0" />
+      <point x="730.0" y="470.0" />
+      <point x="106.125" y="114.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.BronzeAccount" target="lab8.finalProject.creditCardSystem.dataLayer.models.creditAccountsTypes.CreditAccountBase">
+      <point x="0.0" y="-36.5" />
+      <point x="1597.5" y="721.0" />
+      <point x="1376.581730769231" y="721.0" />
+      <point x="85.0" y="81.0" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.CheckingAccount" target="lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.DebitAccountBase">
+      <point x="0.0" y="-36.5" />
+      <point x="535.0" y="721.0" />
+      <point x="587.8221153846154" y="721.0" />
+      <point x="-53.75" y="59.0" />
+    </edge>
+    <edge source="lab8.finalProject.framework.dataLayer.models.basicData.CorporateCustomer" target="lab8.finalProject.framework.dataLayer.models.basicData.Customer">
+      <point x="0.0" y="-48.0" />
+      <point x="100.0" y="721.0" />
+      <point x="136.75" y="721.0" />
+      <point x="-67.5" y="103.0" />
+    </edge>
+    <edge source="lab8.finalProject.framework.dataLayer.models.accounts.Account" target="lab8.finalProject.framework.dataLayer.models.accounts.TransactionHistory">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="lab8.finalProject.framework.dataLayer.models.accounts.Account" target="lab8.finalProject.framework.dataLayer.models.basicData.Customer">
+      <point x="-35.375" y="114.0" />
+      <point x="588.5" y="470.0" />
+      <point x="294.25" y="470.0" />
+      <point x="90.0" y="-103.0" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.dataLayer.models.debitAccountsTypes.DebitAccountBase" target="lab8.finalProject.framework.dataLayer.models.accounts.Account">
+      <point x="0.0" y="-59.0" />
+      <point x="641.5721153846154" y="470.0" />
+      <point x="659.25" y="470.0" />
+      <point x="35.375" y="114.0" />
+    </edge>
+    <edge source="lab8.finalProject.framework.dataLayer.models.basicData.Customer" target="lab8.finalProject.framework.dataLayer.models.accounts.Account">
+      <point x="0.0" y="-103.0" />
+      <point x="204.25" y="460.0" />
+      <point x="517.75" y="460.0" />
+      <point x="-106.125" y="114.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9926553672316383" x="208.7512805919181" y="617.3539967373573" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

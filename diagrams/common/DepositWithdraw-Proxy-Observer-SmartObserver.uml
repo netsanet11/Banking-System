@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager</OriginalElement>
+  <nodes>
+    <node x="206.16666666666663" y="333.0">lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager</node>
+    <node x="1434.0647435897436" y="399.5">lab8.finalProject.framework.serviceLayer.NotificationsManager.EmailSenderObserverImpl</node>
+    <node x="1337.3858974358973" y="111.0">lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsObserver</node>
+    <node x="0.0" y="0.0">lab8.finalProject.framework.dataLayer.models.accounts.TransactionHistory</node>
+    <node x="958.9756410256409" y="388.5">lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubjectImpl</node>
+    <node x="359.0" y="33.0">lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade</node>
+    <node x="91.47564102564093" y="662.0">lab8.finalProject.bankingSystem.serviceLayer.proxy.DebitAccountOperationsManagerProxy</node>
+    <node x="674.4756410256409" y="684.0">lab8.finalProject.creditCardSystem.serviceLayer.proxy.CreditAccountOperationsManagerProxy</node>
+    <node x="913.0141025641026" y="89.0">lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubjectImpl" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsObserver">
+      <point x="95.75" y="-59.0" />
+      <point x="1246.225641025641" y="313.0" />
+      <point x="1388.8858974358973" y="313.0" />
+      <point x="-51.5" y="25.5" />
+    </edge>
+    <edge source="lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject">
+      <point x="167.33333333333337" y="-114.5" />
+      <point x="624.5" y="303.0" />
+      <point x="954.0141025641026" y="303.0" />
+      <point x="-123.0" y="47.5" />
+    </edge>
+    <edge source="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubjectImpl" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject">
+      <point x="-95.75" y="-59.0" />
+      <point x="1054.725641025641" y="313.0" />
+      <point x="1118.0141025641026" y="313.0" />
+      <point x="41.0" y="47.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.serviceLayer.proxy.DebitAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject">
+      <point x="112.59999999999991" y="-125.5" />
+      <point x="485.57564102564083" y="612.0" />
+      <point x="948.4756410256409" y="612.0" />
+      <point x="948.4756410256409" y="313.0" />
+      <point x="1036.0141025641026" y="313.0" />
+      <point x="-41.0" y="47.5" />
+    </edge>
+    <edge source="lab8.finalProject.framework.serviceLayer.NotificationsManager.EmailSenderObserverImpl" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsObserver">
+      <point x="0.0" y="-48.0" />
+      <point x="1631.0647435897436" y="313.0" />
+      <point x="1491.8858974358973" y="313.0" />
+      <point x="51.5" y="25.5" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.serviceLayer.proxy.CreditAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject">
+      <point x="210.4000000000001" y="-103.5" />
+      <point x="1147.875641025641" y="642.0" />
+      <point x="1423.5647435897436" y="642.0" />
+      <point x="1423.5647435897436" y="303.0" />
+      <point x="1200.0141025641026" y="303.0" />
+      <point x="123.0" y="47.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.serviceLayer.proxy.DebitAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager">
+      <point x="0.0" y="-125.5" />
+      <point x="372.9756410256409" y="642.0" />
+      <point x="394.41666666666663" y="642.0" />
+      <point x="-62.75" y="114.5" />
+    </edge>
+    <edge source="lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager" target="lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade">
+      <point x="0.0" y="-114.5" />
+      <point x="457.16666666666663" y="313.0" />
+      <point x="577.5" y="313.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager" target="lab8.finalProject.framework.dataLayer.models.accounts.TransactionHistory">
+      <point x="-167.33333333333337" y="-114.5" />
+      <point x="289.83333333333326" y="303.0" />
+      <point x="169.5" y="303.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.serviceLayer.proxy.DebitAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubjectImpl">
+      <point x="225.20000000000005" y="-125.5" />
+      <point x="598.175641025641" y="622.0" />
+      <point x="1054.725641025641" y="622.0" />
+      <point x="-95.75" y="59.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.serviceLayer.proxy.CreditAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.accountsManager.AccountOperationsManager">
+      <point x="-105.20000000000005" y="-103.5" />
+      <point x="832.2756410256409" y="592.0" />
+      <point x="645.4166666666666" y="592.0" />
+      <point x="188.25" y="114.5" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.serviceLayer.proxy.CreditAccountOperationsManagerProxy" target="lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade">
+      <point x="0.0" y="-103.5" />
+      <point x="937.4756410256409" y="582.0" />
+      <point x="828.3365384615383" y="582.0" />
+      <point x="828.3365384615383" y="293.0" />
+      <point x="723.1666666666666" y="293.0" />
+      <point x="145.66666666666663" y="103.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.serviceLayer.proxy.DebitAccountOperationsManagerProxy" target="lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade">
+      <point x="-225.20000000000005" y="-125.5" />
+      <point x="147.77564102564088" y="642.0" />
+      <point x="152.83653846153845" y="642.0" />
+      <point x="152.83653846153845" y="313.0" />
+      <point x="431.83333333333337" y="313.0" />
+      <point x="-145.66666666666663" y="103.5" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.serviceLayer.proxy.CreditAccountOperationsManagerProxy" target="lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubjectImpl">
+      <point x="105.20000000000005" y="-103.5" />
+      <point x="1042.675641025641" y="632.0" />
+      <point x="1246.225641025641" y="632.0" />
+      <point x="95.75" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.048404542996214" x="584.5919525406242" y="216.16481815836988" />
+  <SelectedNodes>
+    <node>lab8.finalProject.framework.serviceLayer.NotificationsManager.NotificationsManagerSubject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

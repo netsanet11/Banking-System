@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab8.finalProject.bankingSystem.serviceLayer.debitAccountManager.DebitAccountDetailsManagerImpl</OriginalElement>
+  <nodes>
+    <node x="154.625" y="258.0">lab8.finalProject.bankingSystem.dataLayer.services.DebitAccountDatabaseFacadeImpl</node>
+    <node x="877.0" y="78.5">lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacade</node>
+    <node x="420.0" y="0.0">lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade</node>
+    <node x="0.0" y="78.5">lab8.finalProject.bankingSystem.dataLayer.services.DebitAccountDatabaseFacade</node>
+    <node x="709.375" y="258.0">lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacadeImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacadeImpl" target="lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacade">
+      <point x="98.0" y="-36.5" />
+      <point x="1003.375" y="233.0" />
+      <point x="1063.0" y="233.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.dataLayer.services.DebitAccountDatabaseFacadeImpl" target="lab8.finalProject.bankingSystem.dataLayer.services.DebitAccountDatabaseFacade">
+      <point x="-105.0" y="-36.5" />
+      <point x="259.625" y="233.0" />
+      <point x="200.0" y="233.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="lab8.finalProject.bankingSystem.dataLayer.services.DebitAccountDatabaseFacadeImpl" target="lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade">
+      <point x="105.0" y="-36.5" />
+      <point x="469.625" y="233.0" />
+      <point x="529.25" y="233.0" />
+      <point x="-109.25" y="104.0" />
+    </edge>
+    <edge source="lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacadeImpl" target="lab8.finalProject.framework.dataLayer.services.FrameworkDatabaseFacade">
+      <point x="-98.0" y="-36.5" />
+      <point x="807.375" y="233.0" />
+      <point x="747.75" y="233.0" />
+      <point x="109.25" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1990543735224588" x="426.8332018927444" y="165.5" />
+  <SelectedNodes>
+    <node>lab8.finalProject.creditCardSystem.dataLayer.services.CreditCardDatabaseFacadeImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
